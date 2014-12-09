@@ -1,3 +1,11 @@
 Different usage of `scope.function_hiera` or `scope.lookupvar`
+```
+cd SO-27296607
+puppet apply --modulepath modules --hiera_config hiera.yaml modules/cms_nxlog/test/init.pp
+cat /tmp/nxlog.conf
 
-    puppet apply --modulepath SO-27296607/modules --hiera_config SO-27296607/hiera.yaml SO-27296607/modules/cms_nxlog/test/init.pp
+<Output out>
+Module om_udp
+    Port 514
+</Output>
+```
