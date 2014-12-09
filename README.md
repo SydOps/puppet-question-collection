@@ -1,2 +1,2 @@
-stackoverflow-puppet-questions and others
+stackoverflow puppet questions collection and answers
 
